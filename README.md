@@ -2,15 +2,19 @@
 
 This is a project testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. 
 
-You should not change the GameCharecter class in this work.
+In this game, you have been tasked with improving the implementation given in Sword. At the moment, the Sword class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
 
-In this game, you have been tasked with improving the implementation given in Sword. At the moment, the Sword class holds a wide range of different variables to track the different gems applied to it.
+GameCharecter is not your code and you should not edit it at all in this work.
 
 ## Better Swords with the decorator pattern
+You can redesign this system to implement a better version of SillySwordSetup (perhaps one worthy of just being called sword!) following the decorator pattern. Start by considering page 91 or Head First Design Patterns - ask yourself what are the component, the concrete component, the decorator and the concrete decorators in this case?
 
-How can you redesign this system to implement a better version of sword (perhaps one just called sword!) following the decorator pattern?
+Hints:
+* Imagine you want to add more weapons to the game like a spear or a bow and each of them can have different gems added to them. 
+* Imagine that you might also need to add different types of gem in the future (A water gem for example). 
+* GameCharecter is not a part of this system.
 
-
+Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show 
 
 ## Fixing fire exploits
 
