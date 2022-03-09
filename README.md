@@ -1,25 +1,37 @@
 # DecoratorGame
 
-This is a project testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. 
-
-In this game, you have been tasked with improving the implementation given in Sword. At the moment, the Sword class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
+This is a project testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. You have been tasked with improving the implementation given in SillySwordSetup. At the moment, the class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
 
 GameCharecter is not your code and you should not edit it at all in this work.
 
-## Better Swords with the decorator pattern
-You can redesign this system to implement a better version of SillySwordSetup (perhaps one worthy of just being called sword!) following the decorator pattern. Start by considering page 91 or Head First Design Patterns - ask yourself what are the component, the concrete component, the decorator and the concrete decorators in this case?
+## Problems with the system
+You do not need to implement these changes but ask yourself the following questions:
+* How would you change the current system to allow multiple gems of the same type to be added?
+* How would you add in new weapons that could use the same gems?
+* If GameCharecter implemented a new type of damage, like shockwave damage, how would you add in a new set of gems to make use of it?
+
+
+## Better Extensibility with the Decorator Pattern
+You can redesign this system to implement a better version of SillySwordSetup (perhaps one worthy of just being called sword!) following the decorator pattern. 
 
 Hints:
-* Imagine you want to add more weapons to the game like a spear or a bow and each of them can have different gems added to them. 
-* Imagine that you might also need to add different types of gem in the future (A water gem for example). 
-* GameCharecter is not a part of this system.
+* Start by considering page 91 or Head First Design Patterns. 
+* Ask yourself what should the component, the concrete components, the decorator and the concrete decorators be in this case?
+* GameCharecter is not a part of this redesign.
 
-Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show 
+Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show them.
 
-## Fixing fire exploits
+## Fixing lightning exploits
 
-You realise that your game has a serious issue - fire damage seems to be much, much too strong. Inspecting the SillySwordSetup class you relaise that this is because it is not working as intended! The intention is that a sword attack with multiple firegem buffs on it should not apply the bonus firevulnerabilioty damage but, becasue of the way the current code is implemented, the first gem test sets the target on fire and then each subsequent attack adds fireVulnerability bonus damage onto it.
+You realise that your game has a serious issue - lightning and firedamage seems to be much, much too strong. Inspecting the SillySwordSetup class you realise that this is because it is not working as intended! The intention is that a sword attack with multiple gem buffs on it should only weaken the GameCharecter once or apply bonus fire damage once but, becasue of the way the current code is implemented, the first lightning gem weakens the target and then each subsequent gem keeps weakening the target or applying bonus damage. In addition, look what happens when you swap the order that the gems are applied to ensure that the lightningvulnerability multiplier is at it's largest for the GreaterLightningGem - thew strength of the attack heavily depends on the order that the gems are called in!
 
-While you are at it,can you fix it so that instead of seeing multiple printOuts for each gem, instead we see a single printout for each type of damage the charecter takes?
+How can you modify your decorator pattern to:
+* Apply all the damage from each attack in a single go and remove dependency on the order that the gems are called in. 
+* Fix it so that instead of seeing multiple printOuts for each gem, instead we see a single printout for each type of damage the charecter takes?
 
-How can you fix this issue in your decorator code? Look at Head First Design Patterns page xxx for a clue about this particular issue. The fix is not trivial in this case!
+Hints:
+* Clone your project before attempting this fix.
+* Fixing one of these issues can fix the other.
+* Look at Head First Design Patterns page 99 for a clue about this particular issue. The fix is not trivial in this case!
+* You might want to build a new class to address this issue
+
