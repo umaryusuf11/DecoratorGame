@@ -1,8 +1,12 @@
 # DecoratorGame
+Please note that this will be assessed differently toother labs - you will submit your work on Moodle and be assessed on how well you follow this style guide:
+https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Guide
 
-This is a project testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. You have been tasked with improving the implementation given in SillySwordSetup. At the moment, the class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
+This is a lab testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. 
 
-GameCharecter is not your code and you should not edit it at all in this work.
+You have been tasked with improving the implementation given in SillySwordSetup. At the moment, the class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
+
+n.b. GameCharecter is not your code and you should not edit it at all in this work.
 
 ## Problems with the system
 You do not need to implement these changes but ask yourself the following questions:
@@ -12,7 +16,7 @@ You do not need to implement these changes but ask yourself the following questi
 
 
 ## Better Extensibility with the Decorator Pattern
-You can redesign this system to implement a better version of SillySwordSetup (perhaps one worthy of just being called sword!) following the decorator pattern. 
+You need to redesign this system to implement a better version of SillySwordSetup (perhaps one worthy of just being called sword!) following the decorator pattern. The new pattern will function slightly differently becasue it will also allow multiple gems to be added. 
 
 Hints:
 * Start by considering page 91 or Head First Design Patterns. 
@@ -20,6 +24,10 @@ Hints:
 * GameCharecter is not a part of this redesign.
 
 Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show them.
+
+
+SUBMISSION - 1 Mark: After you have completed the redesign, you should put an exaple in the solution that applies lightning, lesser fire and greater fire gems to the new sword then attacks the orc with it.
+SUBMISSION - 1 Mark: Add a spear to the system with base damage of 40 and apply the same gems to it as above then use it to atack orc 2.  
 
 ## Fixing lightning exploits
 
