@@ -4,7 +4,7 @@ https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Gu
 
 You will be assessed out of 5 marks - the speciifc requirements are highlighted htrouhg the readme.
 
-* **SUBMISSION - Clean Code - 1 Mark: **_Following clean code guidance._
+* **SUBMISSION - Clean Code - 1 Mark:** _Following clean code guidance._
 
 
 
@@ -46,7 +46,7 @@ How can you modify your decorator pattern to:
 
 Youy should implement this using a metho called fixedAttack.
 
-* **SUBMISSION - Lightning and fire fix - 2 marks:** _You should alter your code to fix these issues within a new method called fixedAttack - place an example of a new spear with fire and sword with lightning and fire using fixedAttack to attack orc 4 and 5. _
+* **SUBMISSION - Lightning and fire fix - 2 marks:** _You should alter your code to fix these issues within a new method called fixedAttack - place an example of a new spear with fire and sword with lightning and fire using fixedAttack to attack orc 4 and 5._
 
 
 
