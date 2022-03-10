@@ -98,7 +98,7 @@ public class GameCharacter
 		GameCharacter orcCharacter2 = new GameCharacter("Orc 2", 100, 10, 0, false, false);
 		GameCharacter orcCharacter3 = new GameCharacter("Orc 3", 100, 10, 0, false, false);
 		GameCharacter orcCharacter4 = new GameCharacter("Orc 4", 100, 10, 0, false, false);
-		GameCharacter orcCharacter5 = new GameCharacter("Orc", 100, 10, 0, false, false);
+		GameCharacter orcCharacter5 = new GameCharacter("Orc 5", 100, 10, 0, false, false);
 
 		SillySwordSetup sillySword = new SillySwordSetup(0);
 		sillySword.setLesserLightningGem(true);
