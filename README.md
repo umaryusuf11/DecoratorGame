@@ -31,7 +31,7 @@ Hints:
 Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show them.
 
 
-* SUBMISSION - Decorator Pattern - 2 Mark: After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it.
+* SUBMISSION - Decorator Pattern - 1 Mark: After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it.
 
 * SUBMISSION - New weapons - 1 Mark: Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 4.  
 
@@ -43,7 +43,9 @@ How can you modify your decorator pattern to:
 * Apply all the damage from each attack in a single go and remove dependency on the order that the gems are called in. 
 * Fix it so that instead of seeing multiple printOuts for each gem, instead we see a single printout for each type of damage the charecter takes?
 
-SUBMISSION - Lightning and fire fix - 2 marks: You should alter your code to fix these issues within a new method called fixedAttack - place an example of your spear and sword now using fixedAttack to attack orc 4 and 5. 
+Youy should implement this using a metho called fixedAttack.
+
+SUBMISSION - Lightning and fire fix - 2 marks: You should alter your code to fix these issues within a new method called fixedAttack - place an example of a new spear with fire and sword with lightning and fire using fixedAttack to attack orc 4 and 5. 
 
 
 
