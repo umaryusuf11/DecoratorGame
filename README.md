@@ -2,7 +2,7 @@
 Please note that this will be assessed differently toother labs - you will submit your work on Moodle and be assessed on how well you follow this style guide:
 https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Guide
 
-You will be assessed out of 5 marks - the speciifc requirements are highlighted htrouhg the readme.
+You will be assessed out of 5 marks - the speciifc requirements are highlighted through the readme.
 
 * **SUBMISSION - Clean Code - 1 Mark:** _Following clean code guidance._
 
