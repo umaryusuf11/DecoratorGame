@@ -32,8 +32,8 @@ Hints:
 Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show them.
 
 
-_* SUBMISSION - Decorator Pattern - 1 Mark: After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it.
-* SUBMISSION - New weapons - 1 Mark: Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 4._
+* **SUBMISSION - Decorator Pattern - 1 Mark:** After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it.
+* **SUBMISSION - New weapons - 1 Mark:** Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 4.
   
 
 ## Fixing lightning exploits
