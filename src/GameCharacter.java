@@ -1,4 +1,3 @@
-
 public class GameCharacter 
 {
 	private String name;
@@ -95,15 +94,21 @@ public class GameCharacter
 	
 	public static void main(String args[])
 	{
-		GameCharacter orcCharacter = new GameCharacter("Orc", 100, 10, 0, false, false);
+		GameCharacter orcCharacter1 = new GameCharacter("Orc 1", 100, 10, 0, false, false);
+		GameCharacter orcCharacter2 = new GameCharacter("Orc 2", 100, 10, 0, false, false);
+		GameCharacter orcCharacter3 = new GameCharacter("Orc 3", 100, 10, 0, false, false);
+		GameCharacter orcCharacter4 = new GameCharacter("Orc 4", 100, 10, 0, false, false);
+		GameCharacter orcCharacter5 = new GameCharacter("Orc", 100, 10, 0, false, false);
+
 		SillySwordSetup sillySword = new SillySwordSetup(0);
 		sillySword.setLesserLightningGem(true);
 		sillySword.setLightingGem(true);
 		sillySword.setGreaterLightningGem(true);
+		
 		System.out.println("------------");
-		sillySword.attack(orcCharacter);
+		sillySword.attack(orcCharacter1);
 		System.out.println("------------");
-		sillySword.attack(orcCharacter);
+		sillySword.attack(orcCharacter1);
 		System.out.println("------------");
 	}
 	
