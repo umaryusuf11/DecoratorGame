@@ -2,6 +2,11 @@
 Please note that this will be assessed differently toother labs - you will submit your work on Moodle and be assessed on how well you follow this style guide:
 https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Guide
 
+You will be assessed out of 5 marks - the speciifc requirements are highlighted htrouhg the readme.
+
+* SUBMISSION - Clean Code - 1 Mark: Following clean code guidance.
+
+
 This is a lab testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. 
 
 You have been tasked with improving the implementation given in SillySwordSetup. At the moment, the class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
@@ -26,8 +31,9 @@ Hints:
 Before moving to implementation, check your understanding with your tutor or demonstrator - you can probably draw a diagram to show them.
 
 
-SUBMISSION - 1 Mark: After you have completed the redesign, you should put an exaple in the solution that applies lightning, lesser fire and greater fire gems to the new sword then attacks the orc with it.
-SUBMISSION - 1 Mark: Add a spear to the system with base damage of 40 and apply the same gems to it as above then use it to atack orc 2.  
+* SUBMISSION - Decorator Pattern - 2 Mark: After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it.
+
+* SUBMISSION - New weapons - 1 Mark: Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 4.  
 
 ## Fixing lightning exploits
 
@@ -36,6 +42,10 @@ You realise that your game has a serious issue - lightning and firedamage seems 
 How can you modify your decorator pattern to:
 * Apply all the damage from each attack in a single go and remove dependency on the order that the gems are called in. 
 * Fix it so that instead of seeing multiple printOuts for each gem, instead we see a single printout for each type of damage the charecter takes?
+
+SUBMISSION - Lightning and fire fix - 2 marks: You should alter your code to fix these issues within a new method called fixedAttack - place an example of your spear and sword now using fixedAttack to attack orc 4 and 5. 
+
+
 
 Hints:
 * Clone your project before attempting this fix.
