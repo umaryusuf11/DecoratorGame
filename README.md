@@ -1,11 +1,16 @@
 # DecoratorGame
-Please note that this will be assessed differently toother labs - you will submit your work on Moodle and be assessed on how well you follow this style guide:
+Please note that this will be assessed differently toother labs - you will submit your work on Moodle: 
+
+And be assessed on how well you follow this style guide:
 https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Guide
 
 You will be assessed out of 5 marks - the speciifc requirements are highlighted through the readme.
 
 * **SUBMISSION - Clean Code - 1 Mark:** _Following clean code guidance._
 
+# Getting started
+
+Fork this project and then add your tutor and me as developers: https://stgit.dcs.gla.ac.uk/oose-2021-22-teaching-team/decoratorgame
 
 
 This is a lab testing your understanding of the decorator pattern by applying it to a video game. In this particular example, you are being shown a poor quality version of the code and being tasked with redesiging it from the ground up. 
