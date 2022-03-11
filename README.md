@@ -1,5 +1,5 @@
 # DecoratorGame
-Please note that this will be assessed differently toother labs - you will submit your work on Moodle: 
+Please note that this will be assessed differently toother labs - you will submit your work on Moodle in a link found under week 10.
 
 And be assessed on how well you follow this style guide:
 https://stgit.dcs.gla.ac.uk/DerekSomerville/javagetstarted/-/wikis/home/Style_Guide
