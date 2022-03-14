@@ -17,7 +17,7 @@ This is a lab testing your understanding of the decorator pattern by applying it
 
 You have been tasked with improving the implementation given in SillySwordSetup. At the moment, the class holds a wide range of different variables to track the different gems added to the sword. When at attack is made with the SillySwordSetup it is given a GameCharecter to attack and checks for each Gem variable.
 
-n.b. GameCharecter is not your code and you should not edit it at all in this work.
+n.b. GameCharecter is not your code and you should not edit it at all in this work except for the Main method. 
 
 ## Problems with the system
 You do not need to implement these changes but ask yourself the following questions:
@@ -38,7 +38,7 @@ Before moving to implementation, check your understanding with your tutor or dem
 
 
 * **SUBMISSION - Decorator Pattern - 1 Mark:** _After you have completed the redesign, you should put an example in the main method of the solution that applies lightning, lesser fire and greater fire gems to the new sword then attack orc 2 with it._
-* **SUBMISSION - New weapons - 1 Mark:** _Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 4._
+* **SUBMISSION - New weapons - 1 Mark:** _Add a spear to the system with base damage of 40. In main apply the same gems to it as above then use it to atack orc 3._
   
 
 ## Fixing lightning exploits
