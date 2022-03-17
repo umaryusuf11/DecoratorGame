@@ -110,6 +110,28 @@ public class GameCharacter
 		System.out.println("------------");
 		sillySword.attack(orcCharacter1);
 		System.out.println("------------");
+
+		Sword sword = new BaseSword(0);
+		sword = new Lightning(sword);
+		sword = new LesserFire(sword);
+		sword = new GreaterFire(sword);
+
+		System.out.println("------------");
+		sword.attack(orcCharacter2);
+		System.out.println("------------");
+
+		Sword spear = new Spear();
+		spear = new Lightning(spear);
+		spear = new LesserFire(spear);
+		spear = new GreaterFire(spear);
+
+		System.out.println("------------");
+		spear.attack(orcCharacter3);
+		System.out.println("------------");
+
+
+
+
 	}
 	
 	
